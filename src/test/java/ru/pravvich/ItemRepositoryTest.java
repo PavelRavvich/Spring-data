@@ -19,6 +19,9 @@ public class ItemRepositoryTest {
 
     private final Item item = new Item("test", "test");
 
+    /**
+     * Create(save), Read(findOne).
+     */
     @Test
     public void whenSaveItemToDatabaseThenItemContainInDB() {
 
